@@ -1,0 +1,24 @@
+print('The first element:', tuple[0])
+print('The last element:', tuple [-1])
+print ('The data type of the second element:', type(tuple[1]))
+
+
+num_tuple = 2, 4, 5, 7, 8, 10
+print(num_tuple[:3])
+print (num_tuple[:4])
+print(num_tuple[-3:1])
+print(num_tuple[2:5])
+
+tuple_1 = (1, 2)
+tuple_2 = (3, 4)
+print(tuple_1 + tuple_2)
+
+
+x = 42
+y = 71
+print('Before swapping') 
+print(f'x = {x}, y = {y}')
+(x, y) = (y, x)
+print('After swapping:')
+print(f'x = {x}, y = {y}')
+
